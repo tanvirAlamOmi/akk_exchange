@@ -1,0 +1,77 @@
+{
+  "application_name": {
+    "type" : "text",
+    "value" : ""
+  },
+  "subtitle": {
+    "type" : "text",
+    "value" : ""
+  },
+  "addresses": [
+    {
+      "type" : "textarea",
+      "value" : "",
+      "embed_map": ""
+    }
+  ],
+  "details": {
+    "type" : "textarea",
+    "value" : ""
+  },
+  "telephone_no": {
+    "type" : "tel",
+    "value" : ""
+  },
+  "mobile_no": {
+    "type" : "tel",
+    "value" : ""
+  },
+  "email": {
+    "type" : "email",
+    "value" : ""
+  },
+  "website": {
+    "type" : "url",
+    "value" : ""
+  },
+  "logo": {
+    "type" : "file",
+    "value" : ""
+  },
+  "favicon": {
+    "type" : "file",
+    "value" : ""
+  },
+  "facebook_link": {
+    "type" : "url",
+    "value" : ""
+  },
+  "linkedin_link": {
+    "type" : "url",
+    "value" : ""
+  },
+  "twitter_link": {
+    "type" : "url",
+    "value" : ""
+  },
+  "youtube_link": {
+    "type" : "url",
+    "value" : ""
+  },
+  "instagram_link": {
+    "type" : "url",
+    "value" : ""
+  },
+  "status": {
+    "type" : "checkbox",
+    "value" : true
+  },
+  "meta_keywords": {
+    "type" : "textarea",
+    "value" : ""
+  },
+  "meta_description": {
+    "type" : "textarea",
+    "value" : ""
+  }
+}

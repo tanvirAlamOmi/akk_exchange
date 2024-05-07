@@ -1,0 +1,229 @@
+@media only screen and (max-width: 990px) {
+    body {
+        /* display: none; */
+    }
+
+
+    /* TopBar End */
+
+    /* Carousal Start*/
+    #carouselExampleDark .carousel-item {
+        height: 300px;
+    }
+
+    #carouselExampleDark .carousel-item img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .carousel-caption {
+        left: 0;
+        margin-top: 5px;
+    }
+
+    .carousel .carousel-caption {
+        text-align: center;
+        margin-bottom: 48px;
+        top: 0;
+        max-width: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .carousel .carousel-caption h1 {
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    .carousel .carousel-caption p {
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+
+    .carousel .carousel-caption .open_account_btn {
+        padding: 5px 28px;
+        background: var(--white);
+        border-radius: 50px;
+        font-size: 14px;
+        border: 1px solid var(--white);
+    }
+
+    /* Carousal End*/
+}
+
+@media only screen and (max-width: 480px) {
+
+    body p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    body section {
+        padding: 48px 0;
+    }
+
+    .top-left-text {
+        display: flex;
+        padding-top: 6px;
+    }
+
+    .top-right-text {
+        display: none;
+    }
+
+    .top-left-text li {
+        display: inline-block;
+        padding-bottom: 6px;
+    }
+
+    .bottom-space {
+        padding-bottom: 6px;
+    }
+
+    .main_nav .logo {
+        height: 42px;
+    }
+    .main_nav hr{
+        display: none;
+    }
+    .nav_web {
+        display: block;
+        position: fixed;
+        top: 0;
+        padding: 24px 12px;
+        width: 100%;
+        max-width: 280px;
+        height: 100vh;
+        z-index: 999;
+        background-color: var(--white);
+        transition: ease 1s;
+        transform: translateX(-115%);
+    }
+
+    .nav_web_small {
+        transform: translateX(0);
+        box-shadow: 0 25px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .nav_web .nav-item {
+        display: block;
+    }
+
+    .nav_mobile {
+        display: block !important;
+        position: absolute;
+        right: 12px;
+        height: 32px;
+        border: 0;
+        outline: 0;
+        border-radius: 4px;
+        box-shadow: 0;
+        background-color: transparent;
+    }
+
+    .nav_mobile ion-icon {
+        color: var(--dark);
+        font-size: 36px;
+        line-height: 0;
+        margin: 0;
+
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    .mobile-nav {
+        padding-left: 0 !important;
+        text-align: left !important;
+        display: flex;
+        flex-direction: column;
+    }
+    /* Footer Start */
+    .stackeholders{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .stackeholders li {
+        flex: 15%;
+        /* max-width: 15%; */
+    }
+    footer .stackeholders li img{
+        width: 50px;
+        height: auto;
+    }
+    .w100{
+        width: 100px!important;
+        height: auto;
+    }
+   
+
+
+    /* Board Of Directors */
+    
+        /* Responsive styles */
+        @media (max-width: 767px) {
+            .profile_card {
+                flex-direction: column;
+            }
+
+            .col-3, .col-9 {
+                width: 100%;
+            }
+
+            .profile_card .img_profile {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+           
+        }
+        @media only screen and (max-width: 480px) { 
+            .popup-content {
+               
+                left: 10%!important;
+                transform: translate(-5%, -55%)!important;}
+
+    }
+    /* Footer End */
+    /* News Start */
+
+    /* Media query for screens with a maximum width of 768px (typical for mobile devices) */
+    @media (max-width: 768px) {
+        .f-news-card {
+            gap: 10px;
+            /* Reduce the gap between elements for better spacing on smaller screens */
+        }
+
+        .f-news-card {
+            display: flex;
+            flex-direction: column;
+            /* Change to a column layout for mobile */
+            border-radius: 12px;
+            background: #FFF;
+            box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.08);
+        }
+
+        .f-news-card-body {
+            padding: 20px;
+            /* Reduce the padding to create more space for content */
+        }
+    }
+
+    /* News End */
+
+    /* NoticeBoard Start */
+    body section .site_btn {
+        padding: 8px 20px;
+        font-size: 13px;
+    }
+
+    /* Managment Start */
+    .management .managment_card {
+        padding: 10px;
+    }
+
+    /* Footer Start */
+    footer {
+        padding: 10px 5px;
+    }
+}

@@ -1,0 +1,277 @@
+.bg-theme {
+  background-color: #192a89;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.fs-120 {
+  font-size: 120%;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.lv-alert {
+  width: auto;
+  position: absolute;
+  right: 0px;
+  margin:0px;
+  padding: 5px;
+  padding-right: 35px;
+  z-index: 9999;
+}
+
+.lv-alert .btn-close {
+  margin:0px;
+  padding: 10px;
+}
+
+.mx-y-200 {
+  max-height: 200px;
+}
+
+.td-img {
+  max-height: 80px;
+}
+
+.btn-xs {
+  padding: 3px;
+  line-height: .8;
+}
+
+.mt-4px {
+  margin-top: 4px;
+}
+
+/* The input-container */
+.input-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Hide the browser's default radio button */
+.input-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+/* Create a custom radio button */
+.radio-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ddd;
+    border-radius: 50%;
+}
+/* On mouse-over, add a grey background color */
+.input-container:hover input ~ .radio-checkmark {
+    background-color: #bbb;
+}
+/* When the radio button is checked, add a blue background */
+.input-container input:checked ~ .radio-checkmark {
+    background-color: #2196f3;
+}
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radio-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+/* Show the indicator (dot/circle) when checked */
+.input-container input:checked ~ .radio-checkmark:after {
+    display: block;
+}
+/* Style the indicator (dot/circle) */
+.input-container .radio-checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+/* Create a custom checkbox */
+.box-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ddd;
+    border: 1px solid #bbb;
+}
+
+/* On mouse-over, add a grey background color */
+.input-container:hover input ~ .box-checkmark {
+    background-color: #bbb;
+}
+
+/* When the checkbox is checked, add a blue background */
+.input-container input:checked ~ .box-checkmark {
+    background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.box-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.input-container input:checked ~ .box-checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.input-container .box-checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 7px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.content-box {
+    border: 1px solid rgba(0,0,0, .1);
+    height: 200px;
+    overflow: auto;
+    padding: 10px;
+}
+
+.content-box > .btn-group {
+    margin-bottom: -30px;
+}
+
+.content-box > .btn-group > button.btn {
+    border-radius: 4px !important;
+}
+
+.content-box > .btn-group > ul.dropdown-menu {
+    inset: 0px 0px auto auto !important;
+    min-width: unset !important;
+    padding: 0px;
+}
+
+.content-box > .btn-group > ul.dropdown-menu > li > a.dropdown-item,
+.content-box > .btn-group > ul.dropdown-menu > li > form > button.dropdown-item {
+    padding: 2px 5px;
+    background-color: #6c757d;
+    color: whitesmoke;
+}
+
+.content-box > .btn-group > ul.dropdown-menu > li > a.dropdown-item:hover,
+.content-box > .btn-group > ul.dropdown-menu > li > a.dropdown-item:active,
+.content-box > .btn-group > ul.dropdown-menu > li > form > button.dropdown-item:hover,
+.content-box > .btn-group > ul.dropdown-menu > li > form > button.dropdown-item:active {
+    padding: 2px 5px;
+    background-color: #000;
+    color: white;
+}
+
+.ck-editor__editable {
+    min-height: 200px;
+}
+
+.img-xs {
+    max-height: 40px;
+    max-width: 70px;
+}
+
+.bg-section-header {
+    background-color: wheat;
+}
+
+.action-btn-box {
+    border-left: 1px solid black;
+    padding-left: 15px;
+    margin-left: 15px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+.sb-sidenav-dark {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+}
+.sb-sidenav-dark .sb-sidenav-menu .nav-link .sb-nav-link-icon {
+    color: rgb(0 0 0 / 50%);
+}
+.sb-sidenav-dark .sb-sidenav-menu .nav-link.active .sb-nav-link-icon {
+    color: #fff;
+}
+.sb-sidenav-dark .sb-sidenav-menu .nav-link {
+    color: rgb(0 0 0 / 70%);
+}
+.sb-sidenav-dark .sb-sidenav-menu .nav-link:hover{
+    color:#004cff;
+}
+.sb-sidenav-dark .sb-sidenav-menu .nav-link.active {
+    color: #fff;
+    background: #004cff;
+    border-radius: 10px;
+    margin: 10px;
+}
+/* modern card ui */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    background-color: #fff;
+    padding: 0;
+    border: none;
+}
+.card .card-header {
+    border-bottom: 1px solid #e6e6e6;
+    padding: 20px;
+    background-color: #FFF0CE;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+}
+/* card body p odd line green and even line red background */
+.card .card-body p:nth-child(odd) {
+    background-color: #F6FAFC;
+    padding: 20px 40px;
+}
+.card .card-body p:nth-child(even) {
+    background-color: #fff;
+    padding: 20px 40px;
+}
+
+.card .card-body {
+padding: 0;
+}
+
